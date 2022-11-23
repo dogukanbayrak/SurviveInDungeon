@@ -353,9 +353,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Camera/CameraFollow.cs"
 "Assets/Scripts/GameManager/MouseCursor.cs"
+"Assets/Scripts/GameManager/MovePointDestroyer.cs"
 "Assets/Scripts/Player/PlayerController.cs"
 "Assets/Scripts/Player/PlayerEquipWeapon.cs"
 "Assets/Scripts/Player/PlayerMovementController.cs"
+"Assets/Scripts/UI/ScrollRawImage.cs"
 -langversion:9.0
 
 /deterministic
