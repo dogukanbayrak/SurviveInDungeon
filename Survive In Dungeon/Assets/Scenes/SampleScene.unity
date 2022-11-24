@@ -1831,7 +1831,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721276203}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8d6d653462625948a27edc3e9a5d7d3, type: 3}
   m_Name: 
@@ -2733,7 +2733,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7092324b93851a14c858530cca4a6b26, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7488e0d2e2c29134aac562fc8a640fa7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3538,6 +3538,37 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4358453608203398918, guid: 258f1067102af354db237f826c17949d, type: 3}
   m_PrefabInstance: {fileID: 4358453606551433659}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1652498118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652498109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec0f939a39db8a4dbd261a8c3ea91b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CooldownIcons:
+  - {fileID: 1104826389}
+  - {fileID: 1568259089}
+  - {fileID: 1659812776}
+  - {fileID: 1766320047}
+  - {fileID: 1283145758}
+  ManaIcons:
+  - {fileID: 1108714359}
+  - {fileID: 1247612267}
+  - {fileID: 876763150}
+  - {fileID: 2133468150}
+  - {fileID: 689306326}
+  cooldownTimes:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 2
+  CooldownTimesList: []
 --- !u!1 &1659812774
 GameObject:
   m_ObjectHideFlags: 0

@@ -115,7 +115,7 @@ public class PlayerController : MonoBehaviour
         {
 
             anim.SetBool("canWalk", true);
-            //NewMovepoint = new Vector3(targetMovePoint.x, 0, targetMovePoint.z);
+            
             NewMovepoint = new Vector3(targetMovePoint.x, transform.position.y, targetMovePoint.z);
 
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(NewMovepoint - transform.position), turnSpeed * Time.deltaTime);
@@ -136,5 +136,22 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+
+
+    public bool FinishedMovement { 
+        get 
+        {
+            return finishedMovement;  
+        } 
+        set 
+        { 
+            finishedMovement = value;  
+        }
+    }
+
+    public bool CanMove { get { return canMove; } set { canMove = value; } }
+
+    public Vector3 TargetPosition { get {  return targetMovePoint; } set { targetMovePoint = value; } }
+
 
 }
