@@ -13,9 +13,11 @@ In UI, you can see the skills cooldown and if you dont have enough mana you will
 
 
 It's a movement video. You can control your character in any direction you want.
+
 https://user-images.githubusercontent.com/25830770/203875454-2ee911db-318e-499f-9458-2826eb2d332a.mp4
 
 
 It's a skillbar UI video. Cooldown is too short beacause It's coding process still continues. I'm still doing some tests.
+
 https://user-images.githubusercontent.com/25830770/203875529-f1360872-e55a-4865-9af6-85a75a5fdae9.mp4
 
